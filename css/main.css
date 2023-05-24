@@ -225,7 +225,7 @@
 
  .whitebox{
    width: 90%;
-   height: 1000px;
+   height: 800px;
    background-color: aliceblue;
    margin-left: 88px;
    margin-top: 70px;
@@ -235,9 +235,9 @@
   width: 500px;
   height: 50px;
   border-radius: 5px;
-  background-color: #2b2b;
-  margin-top: 100px;
-  margin-left: 650px;
+  background-color: #2b2b2b;
+  margin-top: 50px;
+  margin-left: 680px;
  }
 
  .intro{
@@ -375,4 +375,10 @@ select{
 }
 .cus2{
   text-align: center;
+}
+
+.meatball{
+  background-image: url("../assets/Meatball-Sub-Sandwich-13.jpg");
+  background-position: center;
+  background-size: cover;
 }
