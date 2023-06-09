@@ -429,3 +429,22 @@ select{
   border-radius: 5px;
   color: black;
 }
+
+.orders2{
+  width: 70%;
+  height: 600px;
+  background-color: aliceblue;
+  margin-top: 100px;
+  color: black;
+}
+.orderstotal{
+  width: 30%;
+  height: 600px;
+  background-color: #2b2b2b;
+  margin-top: 100px;
+  color: white;
+}
+
+.align{
+  text-align: center;
+}

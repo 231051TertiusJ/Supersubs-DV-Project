@@ -27,7 +27,7 @@
     <script src="../js/index.js"></script>
 
 </head>
-<body>
+<body onload="displayCheck()">
 
     <nav>
         <div class="logo"></div>
@@ -70,6 +70,28 @@
                     7 of 7
                     <h2 class="cus">CUSTOM</h2>
                     <h6 class="cus2">Build a SUB</h6>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-12 orders2">
+                    <h1>Your Order List:</h1>
+                    <br>
+                    <div id="checkoutOrder"></div>
+                </div>
+                <div class="col-6 orderstotal">
+                    <h1>Your Order Total:</h1>
+                    <div class="totalbox">
+                        <div class="orderCost" id="realTimeCost">R0.00</div>
+                    </div>
+                    <br>
+                    <h3 class="align">Do you have a discount code?</h3>
+                    <h5 class="align">Enter Below</h5>
+                    <input type="text" class="" placeholder="#000-00-000" id="discount">
+                    <button class="btn btn-primary" type="button" onclick="">Run Discount Code</button>
+                    <button class="btn btn-primary" type="button" onclick=resetReturn()">Place Order</button>
                 </div>
             </div>
         </div>
