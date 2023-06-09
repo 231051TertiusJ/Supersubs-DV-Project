@@ -22,11 +22,13 @@
     <!--Internal Documents-->
  
     <link rel="stylesheet" href="../css/main.css">
-    <script src="js/data.js"></script>
-    <script src="js/index.js"></script>
+
+
+    <script src="../js/data.js"></script>
+    <script src="../js/index.js"></script>
 
 </head>
-<body>
+<body onload="displaySubs()">
 
     <nav>
         <div class="logo"></div>
@@ -40,7 +42,7 @@
         </div>
     </nav>
 
-    <header class="header aboutpage" onload="displaySubs()">
+    <header class="header aboutpage" >
         <div class="container">
           <div class="row">
             <div class="col-12 theorder">
@@ -286,15 +288,17 @@
                   </div>
             
                 </div>
-                <div class="topSubs">
-                  <h3>SUBS of the Month!</h3>
-                  <div id="subOut">
-                  </div>
-                </div>
+                
             </div>
           </div>
         </div>
     </header>
+
+    <div class="topSubs">
+      <h3>SUBS of the Month!</h3>
+      <div id="subOut">
+      </div>
+    </div>
 
     <footer>
         <div class="logo"></div>

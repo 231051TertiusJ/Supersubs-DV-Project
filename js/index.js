@@ -1,7 +1,7 @@
 displaySubs = () => {
     let monthSubs = document.getElementById('subOut');
 
-    for(let i = o; i < subData.length; i++){
+    for(let i = 0; i < subData.length; i++){
             let name = subData[i].subName;
             let size = subData[i].subSize;
             let base = subData[i].subBase;
@@ -56,7 +56,7 @@ makeSub = () =>{
     for(let i = 0; i < chopsOptions.length; i++){
         if(chopsOptions[i].checked){
             topArray.push(chopsOptions[i].value);
-            chopsTotal = chopsTotal + +chopsOptions[i].dataset.cost
+            subTotal = subTotal + +chopsOptions[i].dataset.cost
         }
     }
 
@@ -81,13 +81,13 @@ realTimeCost = () => {
 
     let size = document.getElementById("size").value;
     if(size === "Regular"){
-        subTotal = subTotal + 20;
+        realTimePrice = realTimePrice + 20;
     } else if(size === "Large"){
-        subTotal = subTotal + 40;
+        realTimePrice = realTimePrice + 40;
     } else if(size === "Jumbo"){
-        subTotal = subTotal + 60;
+        realTimePrice = realTimePrice + 60;
     } else if(size === "Mountain"){
-        subTotal = subTotal + 80;
+        realTimePrice = realTimePrice + 80;
     } 
 
     let baseOption = document.getElementsByName("baseRadio"); 
@@ -146,5 +146,5 @@ displayOrder = () => {
 checkOut = () => {
     let data = JSON.stringify(subOrder)
     localStorage.setItem('order', data)
-    window.location.href = 'pages/checkout.html';
+    window.location.href = 'checkout.html';
 }
