@@ -25,6 +25,7 @@
 
     <script src="../js/data.js"></script>
     <script src="../js/index.js"></script>
+    <script src="../js/checkout.js"></script>
 
 </head>
 <body onload="displayCheck()">
@@ -48,25 +49,25 @@
         </div>
         <div class="container">
             <div class="row">
-                <div class="col-4 bagel">
+                <div class="col-4 bagel" type="" name="preset" data-cost="120" value="bagel" id="bagel">
                     1 of 7
                 </div>
-                <div class="col-4 atonce">
+                <div class="col-4 atonce" type="" name="preset" data-cost="118" value="allAtOnce" id="allAtOnce">
                     2 of 7
                 </div>
-                <div class="col-4 bacon">
+                <div class="col-4 bacon" type="" name="preset" data-cost="185" value="bacon" id="bacon">
                     2 of 7
                 </div>
-                <div class="col-4 munch">
+                <div class="col-4 munch" type="" name="preset" data-cost="135" value="munch" id="munch">
                     4 of 7
                 </div>
-                <div class="col-4 punch">
+                <div class="col-4 punch" type="" name="preset" data-cost="140" value="punch" id="punch">
                     5 of 7
                 </div>
-                <div class="col-4 spice">
+                <div class="col-4 spice" type="" name="preset" data-cost="120" value="spice" id="spice">
                     6 of 7
                 </div>
-                <div class="col-4 custom">
+                <div class="col-4 custom" type="" name="preset" data-cost="0" id="custom">
                     7 of 7
                     <h2 class="cus">CUSTOM</h2>
                     <h6 class="cus2">Build a SUB</h6>
@@ -78,6 +79,7 @@
             <div class="row">
                 <div class="col-12 orders2">
                     <h1>Your Order List:</h1>
+                    <hr>
                     <br>
                     <div id="checkoutOrder"></div>
                 </div>
@@ -90,7 +92,7 @@
                     <h3 class="align">Do you have a discount code?</h3>
                     <h5 class="align">Enter Below</h5>
                     <input type="text" class="" placeholder="#000-00-000" id="discount">
-                    <button class="btn btn-primary" type="button" onclick="">Run Discount Code</button>
+                    <button class="btn btn-primary" type="button" onclick="discountRun()">Run Discount Code</button>
                     <button class="btn btn-primary" type="button" onclick=resetReturn()">Place Order</button>
                 </div>
             </div>
