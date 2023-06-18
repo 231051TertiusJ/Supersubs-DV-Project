@@ -40,22 +40,26 @@
                 <li class="link Build"><a link rel="stylesheet" href="BuildaSUB.html">Build a SUB</a></li>
                 <li class="link checkout"><a link rel="stylesheet" href="../pages/checkout.html">Checkout</a></li>
             </ul>
+            <div class="account"></div>
         </div>
+        <div>
+          <input class="navsearch" type="text" placeholder="Search...">
+      </div>
     </nav>
 
     <header class="header aboutpage" >
         <div class="container">
           <div class="row">
             <div class="col-12 theorder">
-              <h1 class="onetwo"><strong>Build A SUB</strong></h1>
-              <h4 class="onethree">A Step by Step SUB-lime experience </h4>
+              <h1 class="onetwo fontOne"><strong>Build A SUB</strong></h1>
+              <h4 class="onethree fontTwo">A Step by Step SUB-lime experience </h4>
             </div>
           </div>
 
           <div class="row">
             <div class="col-12 order">
                 <form id="subForm" onchange="realTimeCost()">
-                  <h2>Create the CUSTOM SUB of you dreams!</h2>
+                  <h2 class="fontOne">Create the CUSTOM SUB of you dreams!</h2>
                   <div>
                     <input type="text" class="theform" placeholder="Give your Creation A Name!" id="subName">
                     <select id="size">
@@ -68,7 +72,7 @@
                   </div>
 
                   <div class="poison">
-                    <h2 class="basic">Pick Your Poison Chart</h2>
+                    <h2 class="basic fontTwo">Pick Your Poison Chart</h2>
                     <br>
 
                     <div class="right">
@@ -77,7 +81,7 @@
 
 
 
-                    <h4 class="basic">Choose the bun</h4>
+                    <h4 class="basic fontTwo">Choose the bun</h4>
                     <div class="base-checked">
                       <input class="form-check-input" type="radio" name="baseRadio" id="white" data-cost="10" value="White" checked>
                       <label>
@@ -101,7 +105,7 @@
                   </div>
 
                   <div class="poison meat">
-                    <h4 class="basic">Choose Your meat</h4>
+                    <h4 class="basic fontTwo">Choose Your meat</h4>
 
                     <div class="base-checked">
                       <input class="form-check-input" type="radio" name="meatRadio" id="meaty" data-cost="20" value="meat" checked>
@@ -119,7 +123,7 @@
                   </div>
 
                   <div class="addons">
-                    <h3>Choose the In-between</h3>
+                    <h3 class="fontTwo">Choose the In-between</h3>
           
                     <div class="top-check">
                       <input class="form-check-input" name="chops" type="checkbox" value="chicken" id="chicken" data-cost="15">
@@ -228,7 +232,7 @@
                   </div>
 
                   <div class="addons">
-                    <h4>Choose the Sauce</h4>
+                    <h4 class="fontTwo">Choose the Sauce</h4>
 
                     <div class="top-check">
                       <input class="form-check-input" name="chops" type="checkbox" value="mayo" id="mayo" data-cost="12">
@@ -296,8 +300,21 @@
     </header>
 
     <footer>
+      <h5 class="copyright"><i>copyright all rights reserved - SUPERSUBS</i></h5>
       <div class="logofoot"></div>
       <div class="logoname white foet"><h1>SuperSubs</h1></div>
+
+      <div class="row">
+          <div class="">
+              <ul>
+                  <a class="social-media youtube" href="https://www.youtube.com/" target="_blank"></a>
+                  <a class="social-media facebook" href="https://www.facebook.com" target="_blank"></a>
+                  <a class="social-media twitter" href="https://twitter.com" target="_blank"></a>
+             </ul>
+          </div>
+      </div>
+
+      <hr>
 
       <div class="foot product">
           <h6>Product</h6>

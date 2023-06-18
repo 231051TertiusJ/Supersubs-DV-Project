@@ -25,7 +25,7 @@
 
  footer {
   width: 100%;
-  height: 350px;
+  height: 465px;
   background-image: url("../assets/Best-sub-Sandwich-Background-Grand-Junction-e1518548330752.jpg");
   background-position: center;
   background-size: cover;
@@ -120,13 +120,12 @@
     width: 100%;
     height: 2950px;
     background-color: #2b2b2b;
-    margin-top: 30px;
     padding-top: 30px;
  }
 
  .buildown{
    width: 100%;
-   height: 1700px;
+   height: 1400px;
    background-color: black;
 
  }
@@ -143,7 +142,7 @@
 
  .list{
     color: white;
-    margin-left: 50px;
+    text-align: center;
  }
 
  .about{
@@ -160,7 +159,7 @@
    width: 300px;
    height: 300px;
    background-color: aliceblue;
-   margin-left: 700px;
+   margin-left: 780px;
    margin-top: 50px;
  }
  .divbox:hover{
@@ -210,7 +209,7 @@
    border-radius: 5px;
    background-color: #2b2b;
    margin-top: 20px;
-   margin-left: 650px;
+   margin-left: 720px;
    text-align: center;
    cursor: pointer;
    padding-top: 5px;
@@ -221,8 +220,7 @@
     cursor: pointer;
     background-color: white;
     color: #2b2b2b;
-    border: 5px solid black;
-    padding-top: 5px !important;
+    border: solid black;
  }
 
  .buildown{
@@ -369,7 +367,8 @@ select{
 
 .botex{
   text-align: center;
-  padding-top: 40px;
+  padding-top: 20px;
+  color: #f7f7f7;
 }
 
 .cus{
@@ -465,13 +464,12 @@ select{
   width: 15%;
   height: 150px;
   float: right;
-  margin-top: -50px;
   color: #FFFF;
 
 }
 
 .foet{
-  margin-top: 40px;
+
 }
 
 .logofoot{
@@ -495,4 +493,61 @@ select{
 }
 .card-title{
   font-size: larger;
+}
+
+.copyright{
+  color: #f7f7f7;
+  text-align: center;
+}
+
+.social-media{
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #242323;
+  float: right;
+  margin-top: -50px;
+  margin-right: 100px;
+  margin-bottom: 100px;
+  cursor: pointer;
+}
+.facebook{
+  background-image: url("../assets/logo-facebook.svg");
+  background-position: center;
+  background-size: cover;
+  background-color: #3b5998;
+}
+.twitter{
+  background-image: url("../assets/logo-twitter.svg");
+  background-position: center;
+  background-size: cover;
+  background-color: #00acee;
+}
+.youtube{
+  background-image: url("../assets/logo-youtube.svg");
+  background-position: center;
+  background-size: cover;
+  background-color: #c4302b;
+}
+
+.navsearch{
+  width: 300px;
+  height: 25px;
+  border-radius: 5px;
+  float: right;
+  margin-left: 400px;
+  margin-top: -45px;
+}
+
+.account{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-image: url("../assets/people-circle-outline.svg");
+  background-position: center;
+  background-size: cover;
+  float: right;
+  margin-right: 320px;
+  margin-top: -10px;
+  cursor: pointer;
 }
