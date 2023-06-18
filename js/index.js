@@ -146,5 +146,5 @@ displayOrder = () => {
 checkOut = () => {
     let data = JSON.stringify(subOrder)
     localStorage.setItem('order', data)
-    
+    window.location.href = 'checkout.html';
 }
